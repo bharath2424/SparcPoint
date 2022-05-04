@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 namespace Interview.Web.Controllers
 {
     [Route("api/v1/products")]
-    [Authorize]
+    //[Authorize]
     public class ProductController : Controller
     {
         private readonly IProductLayer _productManager;
